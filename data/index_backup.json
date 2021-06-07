@@ -1,0 +1,589 @@
+{
+  "checkout": {
+    "__typename": "Checkout",
+    "id": "test_id_checkout",
+    "webUrl": "test_webUrl",
+    "subtotalPriceV2": {
+      "amount": "0.0",
+      "currencyCode": "EUR"
+    },
+    "totalTaxV2": {
+      "amount": "0.0",
+      "currencyCode": "EUR"
+    },
+    "totalPriceV2": {
+      "amount": "0.0",
+      "currencyCode": "EUR"
+    },
+    "completedAt": null,
+    "createdAt": "2021-06-02T22:32:40Z",
+    "taxesIncluded": true,
+    "lineItems": []
+  },
+  "products": [
+    {
+      "__typename": "Product",
+      "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+      "handle": "cool-hat",
+      "title": "Cool Hat",
+      "vendor": "EincodeTest",
+      "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing. • 60% cotton, 40% acrylic• Breathable cotton blend• Form-fitting shape• One size fits most",
+      "descriptionHtml": "<meta charset=\"utf-8\">\n<p data-mce-fragment=\"1\">The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.</p>\n<p data-mce-fragment=\"1\">• 60% cotton, 40% acrylic<br data-mce-fragment=\"1\">• Breathable cotton blend<br data-mce-fragment=\"1\">• Form-fitting shape<br data-mce-fragment=\"1\">• One size fits most</p>\n<meta charset=\"utf-8\">",
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "20.0",
+          "currencyCode": "EUR"
+        }
+      },
+      "options": [
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwMjY3OTk4MDM=",
+          "name": "Size",
+          "values": [
+            "s",
+            "l",
+            "m"
+          ]
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwODQxNzY1NzE=",
+          "name": "Color",
+          "values": [
+            "#000000",
+            "#ffffff"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "title": "s / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "s"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "20.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjM2NzkzMQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "title": "s / #ffffff",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "s"
+            },
+            {
+              "name": "Color",
+              "value": "#ffffff"
+            }
+          ],
+          "priceV2": {
+            "amount": "20.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQzMzQ2Nw==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "title": "l / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "l"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "20.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQ2NjIzNQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "title": "l / #ffffff",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "l"
+            },
+            {
+              "name": "Color",
+              "value": "#ffffff"
+            }
+          ],
+          "priceV2": {
+            "amount": "20.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQ5OTAwMw==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "title": "m / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "m"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "20.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjU2NDUzOQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "title": "m / #ffffff",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "m"
+            },
+            {
+              "name": "Color",
+              "value": "#ffffff"
+            }
+          ],
+          "priceV2": {
+            "amount": "20.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          }
+        }
+      ],
+      "images": [
+        {
+          "originalSrc": "Hat-front-black__72990.1603748583.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Hat-back-black__57260.1602591509.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Hat-left-black__51142.1602591510.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Hat-front-white__31525.1602591510.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Hat-left-white__29807.1602591510.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Hat-back-white__92043.1603748583.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "__typename": "Product",
+      "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+      "handle": "lightweight-jacket",
+      "title": "Lightweight Jacket",
+      "vendor": "EincodeTest",
+      "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqué at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.",
+      "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!</span><br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqué at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.</span>",
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "100.0",
+          "currencyCode": "EUR"
+        },
+        "maxVariantPrice": {
+          "amount": "100.0",
+          "currencyCode": "EUR"
+        }
+      },
+      "options": [
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxNTc3NTU=",
+          "name": "Size",
+          "values": [
+            "l",
+            "m",
+            "s"
+          ]
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxOTA1MjM=",
+          "name": "Color",
+          "values": [
+            "#000000",
+            "#ffffff"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQzMDY1MQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "l / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "l"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "100.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "70.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ2MzQxOQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "l / #ffffff",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "l"
+            },
+            {
+              "name": "Color",
+              "value": "#ffffff"
+            }
+          ],
+          "priceV2": {
+            "amount": "100.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "70.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ5NjE4Nw==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "m / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "m"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "100.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "70.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjUyODk1NQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "m / #ffffff",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "m"
+            },
+            {
+              "name": "Color",
+              "value": "#ffffff"
+            }
+          ],
+          "priceV2": {
+            "amount": "100.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "70.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjU2MTcyMw==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "s / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "s"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "100.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "70.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjU5NDQ5MQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "s / #ffffff",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "s"
+            },
+            {
+              "name": "Color",
+              "value": "#ffffff"
+            }
+          ],
+          "priceV2": {
+            "amount": "100.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "70.0",
+            "currencyCode": "EUR"
+          }
+        }
+      ],
+      "images": [
+        {
+          "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-Jacket-Side-Black__68202.1603283961.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-Jacket-Back-Black__33864.1603283963.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-Jacket-Front-White__95300.1603283963.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-Jacket-Side-White__91924.1603283962.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-Jacket-Back-White__02866.1603283963.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "__typename": "Product",
+      "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzk2ODA2OTk=",
+      "handle": "t-shirt",
+      "title": "T-Shirt",
+      "vendor": "EincodeTest",
+      "description": "This t-shirt is a must-have in your wardrobe, combining the timeless fit of a classic tee with an intricate embroidered detail that brings the shirt to a whole new level. It's soft and durable, so be prepared to have a new favorite t-shirt!",
+      "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">This t-shirt is a must-have in your wardrobe, combining the timeless fit of a classic tee with an intricate embroidered detail that brings the shirt to a whole new level. It's soft and durable, so be prepared to have a new favorite t-shirt!</span><br data-mce-fragment=\"1\">",
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "50.0",
+          "currencyCode": "EUR"
+        },
+        "maxVariantPrice": {
+          "amount": "50.0",
+          "currencyCode": "EUR"
+        }
+      },
+      "options": [
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NjAxNTY2MDM=",
+          "name": "Size",
+          "values": [
+            "m",
+            "s"
+          ]
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NjAxODkzNzE=",
+          "name": "Color",
+          "values": [
+            "#000000"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM4NTE3MTY0Mw==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzk2ODA2OTk=",
+          "title": "m / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "m"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "50.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          }
+        },
+        {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM4NTIwNDQxMQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzk2ODA2OTk=",
+          "title": "s / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "s"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "50.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          }
+        }
+      ],
+      "images": [
+        {
+          "originalSrc": "Men-TShirt-Black-Front__70046.1603748348.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-TShirt-Black-Left-Side__72119.1603284781.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-TShirt-Black-Back__57266.1603748348.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-TShirt-White-Front__99616.1603284781.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-TShirt-White-Left-Side__69000.1603284781.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "originalSrc": "Men-TShirt-White-Back__33450.1603284781.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    }
+  ]
+}
