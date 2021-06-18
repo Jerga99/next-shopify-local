@@ -1,5 +1,570 @@
 {
-  "checkout": { },
+  "checkout": {
+    "id": "test_id_checkout",
+    "__typename": "Checkout",
+    "webUrl": "test_webUrl",
+    "subtotalPriceV2": {
+      "amount": "0.0",
+      "currencyCode": "EUR"
+    },
+    "totalTaxV2": {
+      "amount": "0.0",
+      "currencyCode": "EUR"
+    },
+    "totalPriceV2": {
+      "amount": 180,
+      "currencyCode": "EUR"
+    },
+    "completedAt": null,
+    "createdAt": "2021-06-02T22:32:40Z",
+    "taxesIncluded": true,
+    "lineItems": [
+      {
+        "variantId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjU2NDUzOQ==",
+        "quantity": 5,
+        "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjU2NDUzOQ==__LI",
+        "title": "Cool Hat",
+        "variant": {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjU2NDUzOQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "title": "m / #ffffff",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "m"
+            },
+            {
+              "name": "Color",
+              "value": "#ffffff"
+            }
+          ],
+          "priceV2": {
+            "amount": "20.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          },
+          "image": {
+            "originalSrc": "Hat-front-black__72990.1603748583.png",
+            "altText": "",
+            "width": 2048,
+            "height": 2048
+          }
+        },
+        "product": {
+          "__typename": "Product",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "handle": "cool-hat",
+          "title": "Cool Hat",
+          "vendor": "EincodeTest",
+          "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing. • 60% cotton, 40% acrylic• Breathable cotton blend• Form-fitting shape• One size fits most",
+          "descriptionHtml": "<meta charset=\"utf-8\">\n<p data-mce-fragment=\"1\">The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.</p>\n<p data-mce-fragment=\"1\">• 60% cotton, 40% acrylic<br data-mce-fragment=\"1\">• Breathable cotton blend<br data-mce-fragment=\"1\">• Form-fitting shape<br data-mce-fragment=\"1\">• One size fits most</p>\n<meta charset=\"utf-8\">",
+          "priceRange": {
+            "minVariantPrice": {
+              "amount": "20.0",
+              "currencyCode": "EUR"
+            }
+          },
+          "options": [
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwMjY3OTk4MDM=",
+              "name": "Size",
+              "values": [
+                "s",
+                "l",
+                "m"
+              ]
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwODQxNzY1NzE=",
+              "name": "Color",
+              "values": [
+                "#000000",
+                "#ffffff"
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "s / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjM2NzkzMQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "s / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQzMzQ2Nw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "l / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "l"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQ2NjIzNQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "l / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "l"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQ5OTAwMw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "m / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "m"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjU2NDUzOQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "m / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "m"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            }
+          ],
+          "images": [
+            {
+              "originalSrc": "Hat-front-black__72990.1603748583.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Hat-back-black__57260.1602591509.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Hat-left-black__51142.1602591510.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Hat-front-white__31525.1602591510.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        }
+      },
+      {
+        "variantId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
+        "quantity": 4,
+        "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==__LI",
+        "title": "Cool Hat",
+        "variant": {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "title": "s / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "s"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "20.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "30.0",
+            "currencyCode": "EUR"
+          },
+          "image": {
+            "originalSrc": "Hat-front-black__72990.1603748583.png",
+            "altText": "",
+            "width": 2048,
+            "height": 2048
+          }
+        },
+        "product": {
+          "__typename": "Product",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+          "handle": "cool-hat",
+          "title": "Cool Hat",
+          "vendor": "EincodeTest",
+          "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing. • 60% cotton, 40% acrylic• Breathable cotton blend• Form-fitting shape• One size fits most",
+          "descriptionHtml": "<meta charset=\"utf-8\">\n<p data-mce-fragment=\"1\">The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.</p>\n<p data-mce-fragment=\"1\">• 60% cotton, 40% acrylic<br data-mce-fragment=\"1\">• Breathable cotton blend<br data-mce-fragment=\"1\">• Form-fitting shape<br data-mce-fragment=\"1\">• One size fits most</p>\n<meta charset=\"utf-8\">",
+          "priceRange": {
+            "minVariantPrice": {
+              "amount": "20.0",
+              "currencyCode": "EUR"
+            }
+          },
+          "options": [
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwMjY3OTk4MDM=",
+              "name": "Size",
+              "values": [
+                "s",
+                "l",
+                "m"
+              ]
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwODQxNzY1NzE=",
+              "name": "Color",
+              "values": [
+                "#000000",
+                "#ffffff"
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "s / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjM2NzkzMQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "s / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQzMzQ2Nw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "l / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "l"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQ2NjIzNQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "l / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "l"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQ5OTAwMw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "m / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "m"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjU2NDUzOQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "title": "m / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "m"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "20.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "30.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            }
+          ],
+          "images": [
+            {
+              "originalSrc": "Hat-front-black__72990.1603748583.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Hat-back-black__57260.1602591509.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Hat-left-black__51142.1602591510.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Hat-front-white__31525.1602591510.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        }
+      }
+    ]
+  },
   "products": [
     {
       "__typename": "Product",
@@ -87,6 +652,12 @@
           "compareAtPriceV2": {
             "amount": "30.0",
             "currencyCode": "EUR"
+          },
+          "image": {
+            "originalSrc": "Hat-front-black__72990.1603748583.png",
+            "altText": "",
+            "width": 2048,
+            "height": 2048
           }
         },
         {
@@ -225,18 +796,6 @@
         },
         {
           "originalSrc": "Hat-front-white__31525.1602591510.png",
-          "altText": "",
-          "width": 2048,
-          "height": 2048
-        },
-        {
-          "originalSrc": "Hat-left-white__29807.1602591510.png",
-          "altText": "",
-          "width": 2048,
-          "height": 2048
-        },
-        {
-          "originalSrc": "Hat-back-white__92043.1603748583.png",
           "altText": "",
           "width": 2048,
           "height": 2048
