@@ -355,6 +355,7 @@ const resolvers = {
       })
 
       checkout.totalPriceV2.amount = getTotalPrice(checkout.lineItems) || 0;
+      checkout.subtotalPriceV2.amount = getTotalPrice(checkout.lineItems) || 0;
 
       await saveData({...data, checkout})
 
@@ -378,7 +379,8 @@ const resolvers = {
         }
       })
 
-      checkout.totalPriceV2.amount = getTotalPrice(checkout.lineItems) || 0;
+      checkout.totalPriceV2.amount = getTotalPrice(checkout.lineItems) || 0;;
+      checkout.subtotalPriceV2.amount = getTotalPrice(checkout.lineItems) || 0;
 
       await saveData({...data, checkout})
 
@@ -391,6 +393,10 @@ const resolvers = {
       const data = await getData()
       const { checkout } = data
 
+      if (!checkout) {
+        throw new Error("Checkout is not created!")
+      }
+
       function findVariantsProduct(products, variantId) {
         const product = products.filter(p => {
           return p.variants.find(v => v.id === variantId)
@@ -399,7 +405,18 @@ const resolvers = {
         return product
       }
 
-      lineItems.forEach(li => {
+      if (checkout.lineItems && checkout.lineItems.length > 0) {
+        checkout.lineItems.forEach((chLi, index) => {
+          const existingLiIndex = lineItems.findIndex(li => li.variantId === chLi.variantId)
+
+          if (existingLiIndex >= 0) {
+            checkout.lineItems[index].quantity++
+            lineItems.splice(existingLiIndex, 1)
+          }
+        })
+      }
+
+        lineItems.forEach(li => {
         const product = findVariantsProduct(data["products"], li.variantId)
         li.id = li.variantId + "__LI"
         li.title = product.title
@@ -411,7 +428,8 @@ const resolvers = {
       })
 
       checkout.lineItems = [...checkout.lineItems, ...lineItems]
-      checkout.totalPriceV2.amount = getTotalPrice(checkout.lineItems) || 0;
+      checkout.totalPriceV2.amount =getTotalPrice(checkout.lineItems) || 0;
+      checkout.subtotalPriceV2.amount = getTotalPrice(checkout.lineItems) || 0;
       await saveData({
         ...data,
         checkout
